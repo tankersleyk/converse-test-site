@@ -7,12 +7,17 @@
       <script src = "https://cdn.conversejs.org/dist/converse.min.js"></script>
   </head>
   <body>
-  <h1 class = 'title'> MIT Media Lab Learning Initiative </h1>
-  <h2> Test Converse.js Chat </h2> 
-  <p class = 'info'>
-  This is a test website to see how well the converse.js chat client works. This test will hopefully help decide whether or not we wish to use this chat client in the Public Library Innovation Exchange website
-  </p>
+  <div class = "left" id = "leading-text">
+    <h1 id = 'title'> MIT Media Lab Learning Initiative </h1>
+  </div>
+  <div class = "right" id = "side-content">
+    <h2 id = "heading"> Test Converse.js Chat </h2> 
+    <p class = 'info'>
+    This is a test website to see how well the converse.js chat client works. This test will hopefully help decide whether or not we wish to use this chat client in the Public Library Innovation Exchange website
+    </p>
+  </div>
   </body>
+</html>
   <script>
     converse.initialize({
       bosh_service_url: 'https://conversejs.org/http-bind/',
