@@ -21,3 +21,9 @@
 #info {
     position: absolute;
 }
+
+#secret {
+	font-size: 2px;
+	padding: 300% 0 0 0;
+	text-align: center;
+}
