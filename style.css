@@ -1,25 +1,14 @@
 body {
-	background: url(crossword.png);
+  background: url(crossword.png);
 }
 
 #title {
   text-align: center;
 }
 
-.left {
-  padding: 100px 0 0 0;
-    float: left;
-  width:30%;
-}
-
-.right {
-  padding: 100px 0 0 0;
-    float: right;
-    width: 60%;
-}
-
-#heading {
-  text-align:center;
+.info-text {
+  text-align: center;
+  padding-top: 100px;
 }
 
 #info {
@@ -27,7 +16,7 @@ body {
 }
 
 #secret {
-	font-size: 2px;
-	padding: 300% 0 0 0;
-	text-align: center;
+  font-size: 2px;
+  padding: 300% 0 0 0;
+  text-align: center;
 }
